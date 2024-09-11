@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@100&display=swap');
+
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/02/65/13/03/360_F_265130336_TE7GgWBunhfkGx4sA7YAS9kIZ5EROGth.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 7px;
+    word-spacing: 5px;
+}
+
+#clock {
+    width: 100%;
+    margin-top: 17%;
+    position: absolute;
+    text-align: center;
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+#date{
+    width: 100%;
+    margin-top: 25%;
+    position: absolute;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
